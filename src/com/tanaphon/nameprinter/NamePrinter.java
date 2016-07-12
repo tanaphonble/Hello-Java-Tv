@@ -5,7 +5,7 @@ package com.tanaphon.nameprinter;
  * Created by Tanaphon on 7/12/2016.
  */
 public class NamePrinter {
-    protected String name = "1233";
+    protected String name;
 
     public NamePrinter() {
 
@@ -37,43 +37,51 @@ public class NamePrinter {
     }
 
     public static void main(String[] args) {
-        NamePrinter namePrinter1 = new MyNamePrinter();
-        NamePrinter namePrinter2 = new MyNamePrinter();
-        NamePrinter namePrinter3 = new MyNamePrinter();
-        namePrinter1.setName("Ble");
-        namePrinter1.print();
-        namePrinter2.setName("Yoyo Jelly");
-        namePrinter2.print();
-        namePrinter3.print();
-//
+
+        int i = -15;
+        int b = i >> 1;
+
+        System.out.print(b);
+
+
+
+//        NamePrinter namePrinter1 = new MyNamePrinter();
+//        NamePrinter namePrinter2 = new MyNamePrinter();
+//        NamePrinter namePrinter3 = new MyNamePrinter();
+//        namePrinter1.setName("Ble");
+//        namePrinter1.print();
+//        namePrinter2.setName("Yoyo Jelly");
+//        namePrinter2.print();
+//        namePrinter3.print();
+
 //        if (args.length > 0) {
 //            for (int i = 0; i < args.length; i++) {
 //                System.out.println(args[i]);
 //            }
 //        }
 
-        for (String arg : args) {
-            // do something
-            // for (String x : y) << foreach x in y
-        }
-
-        NumberName nn = NumberName.ONE;
-        switch (nn) {
-            case ONE:
-                System.out.print("one");
-                break;
-            case TWO:
-                System.out.print("two");
-                break;
-            default:
-                System.out.print("not 1,2");
-        }
-
-        try {
-
-        } catch (Exception e) {
-
-        }
+//        for (String arg : args) {
+        // do something
+        // for (String x : y) << foreach x in y
+//        }
+//
+//        NumberName nn = NumberName.ONE;
+//        switch (nn) {
+//            case ONE:
+//                System.out.print("one");
+//                break;
+//            case TWO:
+//                System.out.print("two");
+//                break;
+//            default:
+//                System.out.print("not 1,2");
+//        }
+//
+//        try {
+//
+//        } catch (Exception e) {
+//
+//        }
 
     }
 }
