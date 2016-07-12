@@ -1,4 +1,6 @@
-package com.tanaphon.hello;
+package com.tanaphon.document;
+
+import com.tanaphon.hello.Document;
 
 /**
  * Created by Tanaphon on 7/11/2016.
